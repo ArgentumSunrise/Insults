@@ -4,11 +4,11 @@ var which = 0;
 app.config(['$routeProvider', function ($routeProvider) {
     $routeProvider.
     when('/', {
-        templateUrl: 'home.html',
+        templateUrl: 'partials/home.html',
         controller: 'insultsCtrl',
     }).
     when('/ins', {
-        templateUrl: 'insult.html',
+        templateUrl: 'partials/insult.html',
         controller: 'insultsCtrl',
     }).
     otherwise({
